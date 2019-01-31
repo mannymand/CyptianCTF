@@ -4,7 +4,7 @@ session_start();
 $DB_HOST = 'localhost';
 $DB_USER = 'root';
 $DB_PASS = 'pass';
-$DB_NAME = 'db';
+$DB_NAME = 'cyplogindb';
 // Try and connect using the info above.
 $con = mysqli_connect($DB_HOST, $DB_USER, $DB_PASS, $DB_NAME);
 if ( mysqli_connect_errno() ) {
